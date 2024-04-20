@@ -69,7 +69,7 @@ function goToShowProduct(){
     let listPosts = document.querySelectorAll('.product_searching') 
         listPosts.forEach(listPost =>{
         listPost.onclick = () =>{
-        window.location.href = `/pages/showThatProduct/showproduct.html?productid=${listPost.id}`
+        window.location.href = `../../pages/showThatProduct/showproduct.html?productid=${listPost.id}`
     }
 })
 }

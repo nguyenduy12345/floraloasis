@@ -63,6 +63,7 @@
     padding-bottom: 5px;
     border: 1px solid #FFC0CB;
     position: relative;
+    height: 180px;
 }
 .product .product_list_item .product-description .product_title{
     font-size: 17px;

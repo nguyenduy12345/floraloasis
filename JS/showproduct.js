@@ -46,13 +46,13 @@ products.find(product =>{
                     <span class="attribute_title">Accessories:</span>
                     <ul class="list_accessory">
                         <li class="accessory_item">
-                            <img src="/img/accessories/binh-ve-hoa-sen-1579078281135761213270.webp">
+                            <img src="../../img/accessories/binh-ve-hoa-sen-1579078281135761213270.webp">
                         </li>
                         <li class="accessory_item">
-                            <img src="/img/accessories/img_60f8e56b8eebc.jpg">
+                            <img src="../../img/accessories/img_60f8e56b8eebc.jpg">
                         </li>
                         <li class="accessory_item">
-                            <img src="/img/accessories/boxgift.webp">
+                            <img src="../../img/accessories/boxgift.webp">
                         </li>
                     </ul>
                 </div>
@@ -193,7 +193,7 @@ function renderCart(productCarts){
             btnAddCart.setAttribute("class","btn_cart")
             btnAddCart.innerHTML = `
                 <p class="sum_price">Total: 0$</p>
-                <a href="/pages/myOrderPage/myorder.html"><button id="btn_order">SEND ORDER</button></a>`
+                <a href="../../pages/myOrderPage/myorder.html"><button id="btn_order">SEND ORDER</button></a>`
             cartList.appendChild(btnAddCart)
         }
         //TOTAL PRICE

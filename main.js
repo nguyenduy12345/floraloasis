@@ -112,6 +112,7 @@ dots.forEach((dot, key)=>{
         let dotActive = document.querySelector('.dots .active')
         dotActive.classList.remove('active')
         dots[key].classList.add('active')
+        clearInterval()
     })
 }) 
 //END SLIDESHOW

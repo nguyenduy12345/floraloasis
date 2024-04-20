@@ -28,7 +28,7 @@ function renderCart(productCart){
             btnAddCart.setAttribute("class","btn_cart")
             btnAddCart.innerHTML = `
                 <p class="sum_price">Total: $</p>
-                <a href="/pages/myOrderPage/myorder.html"><button id="btn_order">SEND ORDER</button></a>`
+                <a href="../../pages/myOrderPage/myorder.html"><button id="btn_order">SEND ORDER</button></a>`
             cartList.appendChild(btnAddCart)
         }
         //TOTAL PRICE
